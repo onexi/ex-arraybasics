@@ -90,7 +90,9 @@ exercise.deleteFirst = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    //fruits.shift();
+    delete fruits[0];
+    console.log("shift "+fruits);
     return fruits;
 };
 
@@ -111,12 +113,12 @@ exercise.concat = function() {
     var fruit1 = ['Banana', 'Pear'];
     var fruit2 = ['Orange', 'Mango'];
 
-    var fruits;
+    var fruits=fruit1.concat(fruit2);
     // concat two arrays fruit1 and fruit2 int array fruits
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    console.log("concat  "+fruits);
     return fruits;
 };
 
@@ -128,7 +130,8 @@ exercise.sortAlphabetically = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------
-
+    fruits.sort();
+    console.log(" Alphabetic sort  "+fruits);
     return fruits;
 };
 
@@ -140,7 +143,8 @@ exercise.reverseSort = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------
-
+    fruits.sort();            // Sorts the elements of fruits 
+    fruits.reverse();         // Reverses the order of the elements
     return fruits;
 };
 
