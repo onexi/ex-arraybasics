@@ -32,7 +32,7 @@ exercise.length = function() {
 exercise.concatenate = function() {
     var list = ['It', 'was', 'the', 'best', 'of', 'times', 'it', 'was', 'the', 'worst', 'of', 'times'];
     //var text = '';
-    var text = list.join();
+    var text = list.join("");
     console.log("text"+text);
     // contatenate list of words
     // assign contatenated text to "text" variable
