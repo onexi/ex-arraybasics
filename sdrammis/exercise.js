@@ -80,7 +80,7 @@ exercise.insert = function() {
     var fruits = ['Banana', 'Orange', 'Mango'];
 
     // insert an element 'Pear' after the first element 'Banana' in an array
-    fruits = fruits.splice(1, 0, 'Pear');
+    fruits.splice(1, 0, 'Pear');
 
     return fruits;
 };
