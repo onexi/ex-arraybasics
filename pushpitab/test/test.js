@@ -17,7 +17,7 @@ describe('Array Exercise', function() {
 describe('Array Exercise', function() {
 	it('Match text', function() {
 	    ex01.concatenate().trim().should.equal(
-	    	'It was the best of times, it was the worst of times'
+	    	'It was the best of times it was the worst of times'
 	    );
 	});
 });
