@@ -90,8 +90,7 @@ exercise.deleteFirst = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-    //fruits.shift();
-    delete fruits[0];
+    fruits.shift();
     console.log("shift "+fruits);
     return fruits;
 };
