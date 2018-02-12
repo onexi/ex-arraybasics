@@ -17,7 +17,8 @@ exercise.change = function() {
 exercise.length = function() {
 
     var fruits = ['Apple', 'Banana', 'Pear', 'Orange'];
-    var length = 0;
+    var length = fruits.length;
+    console.log("Length : "+length);
 
     // get the length of the fruits array
     // assign length to "length" variable
@@ -30,8 +31,9 @@ exercise.length = function() {
 
 exercise.concatenate = function() {
     var list = ['It', 'was', 'the', 'best', 'of', 'times', 'it', 'was', 'the', 'worst', 'of', 'times'];
-    var text = '';
-
+    //var text = '';
+    var text = list.toString();
+    console.log("text"+text);
     // contatenate list of words
     // assign contatenated text to "text" variable
     // -------------------------------	
@@ -50,7 +52,8 @@ exercise.addToEnd = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits.push('Mango');
+    console.log("Push : "+fruits);
     return fruits;
 };
 
@@ -74,7 +77,8 @@ exercise.deleteLast = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits.pop();
+    console.log("pop "+fruits);
     return fruits;
 };
 
