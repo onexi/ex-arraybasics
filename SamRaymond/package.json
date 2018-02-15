@@ -9,7 +9,9 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": ["testing"],
+  "keywords": [
+    "testing"
+  ],
   "author": "onexi",
   "license": "MIT",
   "dependencies": {
