@@ -8,6 +8,7 @@ exercise.change = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+    fruits[0] = 'Mango';
 
     return fruits;
 
@@ -23,6 +24,7 @@ exercise.length = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+    length = fruits.length;
 
     return length;
 };
@@ -36,7 +38,10 @@ exercise.concatenate = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    for(var i=0; i<list.length;i++)
+    {
+        text += ' '+list[i];
+    }
     return text;
 };
 
@@ -49,6 +54,7 @@ exercise.addToEnd = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+    fruits.push('Mango');
 
     return fruits;
 };
@@ -62,6 +68,8 @@ exercise.addToBegin = function() {
     // ---------- Your Code ----------
     // -------------------------------	
 
+    fruits = ['Mango',fruits];
+
     return fruits;
 };
 
@@ -73,6 +81,7 @@ exercise.deleteLast = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+    fruits = fruits.splice(0,fruits.length-1);
 
     return fruits;
 };
@@ -85,6 +94,8 @@ exercise.deleteFirst = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+
+    fruits = fruits.splice(1,fruits.length)
 
     return fruits;
 };
