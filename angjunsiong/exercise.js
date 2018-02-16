@@ -127,6 +127,8 @@ exercise.concat = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+    
+    fruits = concat(fruit1, fruit2)
 
     return fruits;
 };
