@@ -142,6 +142,8 @@ exercise.sortAlphabetically = function() {
     // ---------- Your Code ----------
     // -------------------------------
 
+    fruits.sort();
+
     return fruits;
 };
 
