@@ -56,6 +56,8 @@ exercise.addToEnd = function() {
     // ---------- Your Code ----------
     // -------------------------------	
 
+    fruits.push("Mango");
+
     return fruits;
 };
 
@@ -67,6 +69,8 @@ exercise.addToBegin = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+    
+    fruits.unshift("Mango");
 
     return fruits;
 };
