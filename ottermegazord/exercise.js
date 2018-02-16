@@ -3,13 +3,12 @@ var exercise = {};
 exercise.change = function() {
 
     var fruits = ['Apple', 'Banana', 'Pear', 'Orange'];
-    fruits[0] = 'Apple';
 
     // change the first element 'Apple' to 'Mango'
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits.splice(0,1,'Mango');
     return fruits;
 
 };
@@ -17,14 +16,14 @@ exercise.change = function() {
 exercise.length = function() {
 
     var fruits = ['Apple', 'Banana', 'Pear', 'Orange'];
-    var length = 0;
-
+  
     // get the length of the fruits array
     // assign length to "length" variable
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    var length = 0;
+    length = fruits.length;
     return length;
 };
 
@@ -37,6 +36,10 @@ exercise.concatenate = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+    var length = list.length;
+    for (var i = 0; i< length; i++){
+        text += ' ' + list[i];
+    }; 
 
     return text;
 };
@@ -50,7 +53,7 @@ exercise.addToEnd = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits.push("Mango");
     return fruits;
 };
 
@@ -62,7 +65,7 @@ exercise.addToBegin = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits.unshift("Mango");
     return fruits;
 };
 
@@ -74,6 +77,7 @@ exercise.deleteLast = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+    fruits.pop()
 
     return fruits;
 };
@@ -86,7 +90,7 @@ exercise.deleteFirst = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits.shift();
     return fruits;
 };
 
@@ -98,7 +102,7 @@ exercise.insert = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits.splice(0,'pear');
     return fruits;
 };
 
@@ -112,7 +116,7 @@ exercise.concat = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits = fruit1.concat(fruit2);
     return fruits;
 };
 
@@ -124,7 +128,7 @@ exercise.sortAlphabetically = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------
-
+    fruits.sort()
     return fruits;
 };
 
@@ -136,7 +140,8 @@ exercise.reverseSort = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------
-
+    fruits.sort();
+    fruits.reverse();
     return fruits;
 };
 
