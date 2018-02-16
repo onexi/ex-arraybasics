@@ -83,6 +83,8 @@ exercise.deleteLast = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+    
+    fruits.pop()
 
     return fruits;
 };
@@ -96,6 +98,8 @@ exercise.deleteFirst = function() {
     // ---------- Your Code ----------
     // -------------------------------	
 
+    fruits.shift()
+
     return fruits;
 };
 
@@ -107,6 +111,8 @@ exercise.insert = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+
+    fruits.splice(1,0,"Pear")
 
     return fruits;
 };
