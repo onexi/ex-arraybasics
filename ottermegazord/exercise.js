@@ -9,7 +9,6 @@ exercise.change = function() {
     // ---------- Your Code ----------
     // -------------------------------	
     fruits[0] = 'Mango';
-    //fruits.splice(0,1,'Mango');
     return fruits;
 
 };
