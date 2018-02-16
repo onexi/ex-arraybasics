@@ -9,6 +9,8 @@ exercise.change = function() {
     // ---------- Your Code ----------
     // -------------------------------	
 
+    fruits[0]='Mango';
+
     return fruits;
 
 };
@@ -24,6 +26,8 @@ exercise.length = function() {
     // ---------- Your Code ----------
     // -------------------------------	
 
+    length = fruits.length
+
     return length;
 };
 
@@ -36,6 +40,8 @@ exercise.concatenate = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+
+    text = list.join(" ")
 
     return text;
 };
