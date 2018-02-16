@@ -3,6 +3,7 @@ var exercise = {};
 exercise.change = function() {
 
     var fruits = ['Apple', 'Banana', 'Pear', 'Orange'];
+    fruits[0] = 'Apple';
 
     // change the first element 'Apple' to 'Mango'
     // -------------------------------	
