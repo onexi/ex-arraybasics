@@ -102,7 +102,7 @@ exercise.insert = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-    fruits.splice(1,0,'pear');
+    fruits.splice(1,0,'Pear');
     return fruits;
 };
 
