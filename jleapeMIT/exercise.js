@@ -24,7 +24,7 @@ exercise.concatenate = function() {
     var list = ['It', 'was', 'the', 'best', 'of', 'times', 'it', 'was', 'the', 'worst', 'of', 'times'];
     var text = '';    
 
-    text = list.join();
+    text = list.join(' ');
 
     return text;
 };
