@@ -156,6 +156,8 @@ exercise.reverseSort = function() {
     // ---------- Your Code ----------
     // -------------------------------
 
+    fruits = fruits.sort().reverse();
+
     return fruits;
 };
 
