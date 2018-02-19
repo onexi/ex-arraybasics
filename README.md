@@ -1,2 +1,2 @@
 # ex-arrayBasics
-Array basics exercise
+Array basics exercise - JRW
