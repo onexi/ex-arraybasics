@@ -9,7 +9,7 @@ exercise.change = function() {
     // ---------- Your Code ----------
     // -------------------------------	
     fruits[0]='Mango';
-    console.log("change "+ fruits);
+    console.log("change test"+ fruits);
     return fruits;
 
 };
