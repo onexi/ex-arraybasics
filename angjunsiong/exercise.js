@@ -9,6 +9,8 @@ exercise.change = function() {
     // ---------- Your Code ----------
     // -------------------------------	
 
+    fruits[0]='Mango';
+
     return fruits;
 
 };
@@ -24,6 +26,8 @@ exercise.length = function() {
     // ---------- Your Code ----------
     // -------------------------------	
 
+    length = fruits.length
+
     return length;
 };
 
@@ -36,6 +40,8 @@ exercise.concatenate = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+
+    text = list.join(" ")
 
     return text;
 };
@@ -50,6 +56,8 @@ exercise.addToEnd = function() {
     // ---------- Your Code ----------
     // -------------------------------	
 
+    fruits.push("Mango");
+
     return fruits;
 };
 
@@ -61,6 +69,8 @@ exercise.addToBegin = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+    
+    fruits.unshift("Mango");
 
     return fruits;
 };
@@ -73,6 +83,8 @@ exercise.deleteLast = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+    
+    fruits.pop()
 
     return fruits;
 };
@@ -86,6 +98,8 @@ exercise.deleteFirst = function() {
     // ---------- Your Code ----------
     // -------------------------------	
 
+    fruits.shift()
+
     return fruits;
 };
 
@@ -97,6 +111,8 @@ exercise.insert = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+
+    fruits.splice(1,0,"Pear")
 
     return fruits;
 };
@@ -111,6 +127,8 @@ exercise.concat = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
+    
+    fruits = fruit1.concat(fruit2);
 
     return fruits;
 };
@@ -124,6 +142,8 @@ exercise.sortAlphabetically = function() {
     // ---------- Your Code ----------
     // -------------------------------
 
+    fruits = fruits.sort();
+
     return fruits;
 };
 
@@ -135,6 +155,8 @@ exercise.reverseSort = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------
+
+    fruits = fruits.sort().reverse();
 
     return fruits;
 };
