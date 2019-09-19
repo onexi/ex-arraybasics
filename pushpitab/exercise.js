@@ -8,7 +8,8 @@ exercise.change = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits[0]='Mango';
+    console.log("change test"+ fruits);
     return fruits;
 
 };
@@ -16,7 +17,8 @@ exercise.change = function() {
 exercise.length = function() {
 
     var fruits = ['Apple', 'Banana', 'Pear', 'Orange'];
-    var length = 0;
+    var length = fruits.length;
+    console.log("Length : "+length);
 
     // get the length of the fruits array
     // assign length to "length" variable
@@ -29,8 +31,9 @@ exercise.length = function() {
 
 exercise.concatenate = function() {
     var list = ['It', 'was', 'the', 'best', 'of', 'times', 'it', 'was', 'the', 'worst', 'of', 'times'];
-    var text = '';
-
+    //var text = '';
+    var text = list.join(" ");
+    console.log("text"+text);
     // contatenate list of words
     // assign contatenated text to "text" variable
     // -------------------------------	
@@ -49,7 +52,8 @@ exercise.addToEnd = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits.push('Mango');
+    console.log("Push : "+fruits);
     return fruits;
 };
 
@@ -61,7 +65,7 @@ exercise.addToBegin = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits.unshift("Mango");
     return fruits;
 };
 
@@ -73,7 +77,8 @@ exercise.deleteLast = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits.pop();
+    console.log("pop "+fruits);
     return fruits;
 };
 
@@ -85,7 +90,8 @@ exercise.deleteFirst = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits.shift();
+    console.log("shift "+fruits);
     return fruits;
 };
 
@@ -97,7 +103,7 @@ exercise.insert = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    fruits.splice(1, 0, "Pear");
     return fruits;
 };
 
@@ -106,12 +112,12 @@ exercise.concat = function() {
     var fruit1 = ['Banana', 'Pear'];
     var fruit2 = ['Orange', 'Mango'];
 
-    var fruits;
+    var fruits=fruit1.concat(fruit2);
     // concat two arrays fruit1 and fruit2 int array fruits
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    console.log("concat  "+fruits);
     return fruits;
 };
 
@@ -123,7 +129,8 @@ exercise.sortAlphabetically = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------
-
+    fruits.sort();
+    console.log(" Alphabetic sort  "+fruits);
     return fruits;
 };
 
@@ -135,7 +142,8 @@ exercise.reverseSort = function() {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------
-
+    fruits.sort();            // Sorts the elements of fruits 
+    fruits.reverse();         // Reverses the order of the elements
     return fruits;
 };
 
